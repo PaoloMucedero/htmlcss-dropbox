@@ -84,21 +84,25 @@ img{
 
 .abbonamento-section{
     max-width: 80%;
-    border: 2px solid black;
-    display: flex;
-    flex-direction: column;
-    
+    border: 2px solid violet;
+    margin: 0 auto;   
 }
 
 .row-flex-abbonamento{
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
     gap: 20px;
+    border: 2px solid red;
 
 }
 
 .card-plan{
     border: 2px solid black;
     width: calc(100% / 3 - (40px / 3));
+    
+}
+
+
+.card-topper{
+    border: 1px solid black;
+    
 }

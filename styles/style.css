@@ -81,3 +81,24 @@ header {
 img{
     max-width: 100%;   
 }
+
+.abbonamento-section{
+    max-width: 80%;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.row-flex-abbonamento{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+.card-plan{
+    border: 2px solid black;
+    width: calc(100% / 3 - (40px / 3));
+}
